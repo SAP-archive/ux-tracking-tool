@@ -1,0 +1,63 @@
+{
+    "UseCaseAutoFlow": true,
+    "UseCases":
+    [{
+        "UseCaseID": "0",
+        "UseCaseTitle": "Use Case 1",
+        "UseCaseActions":
+        [{
+            "ActionID": "0",
+            "ActionTitle": "Action Title 1",
+            "ActionSteps": [{
+                "ActionStepID": "0",
+                "ActionStepTitle": "Step 1",
+                "ActionStepDescription": "Step Description 1"
+            }, {
+                "ActionStepID": "1",
+                "ActionStepTitle": "Step 2",
+                "ActionStepDescription": "Step Description 2"
+            }]
+        }, {
+            "ActionID": "1",
+            "ActionTitle": "Action Title 2",
+            "ActionSteps": [{
+                "ActionStepID": "0",
+                "ActionStepTitle": "Step 1",
+                "ActionStepDescription": "Step Description 1"
+            }, {
+                "ActionStepID": "1",
+                "ActionStepTitle": "Step 2",
+                "ActionStepDescription": "Step Description 2"
+            }]
+        }]
+    }, {
+        "UseCaseID": "1",
+        "UseCaseTitle": "Use Case 1",
+        "UseCaseActions":
+        [{
+            "ActionID": "0",
+            "ActionTitle": "Action Title 1",
+            "ActionSteps": [{
+                "ActionStepID": "0",
+                "ActionStepTitle": "Step 1",
+                "ActionStepDescription": "Step Description 1"
+            }, {
+                "ActionStepID": "1",
+                "ActionStepTitle": "Step 2",
+                "ActionStepDescription": "Step Description 2"
+            }]
+        }, {
+            "ActionID": "1",
+            "ActionTitle": "Action Title 2",
+            "ActionSteps": [{
+                "ActionStepID": "0",
+                "ActionStepTitle": "Step 1",
+                "ActionStepDescription": "Step Description 1"
+            }, {
+                "ActionStepID": "1",
+                "ActionStepTitle": "Step 2",
+                "ActionStepDescription": "Step Description 2"
+            }]
+        }]
+    }]
+}
