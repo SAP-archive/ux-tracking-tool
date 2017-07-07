@@ -105,7 +105,7 @@ The reason for this approach is to keep the intregrity of the results of the usa
 ## Demo
 Visit the following demo page that is also included in the repository and open the console of your browser to view the logs that the tool prints. Find the demo page [here](https://sap.github.io/ux-tracking-tool/demo).
 
-#Copyright and license
+# Copyright and license
 
 Copyright (c) 2017 SAP SE
 
