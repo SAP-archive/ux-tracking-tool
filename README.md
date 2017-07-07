@@ -26,14 +26,14 @@ Boost the prototype evaluation by its instant output.
 
 ## Download
 ###### What sources are needed?
-You only need to load the ```api.min.js```that you can find in the current repository. You may also view it separately [here](https://github.wdf.sap.corp/raw/ux-design-tnt/user-research-tracking-tool-for-behavioral-analysis/master/api.min.js).
+You only need to load the ```api.min.js```that you can find in the current repository. You may also view it separately [here](https://github.com/SAP/ux-tracking-tool/blob/master/api.min.js).
 ###### How can it be loaded in a HTML prototype?
 By embedding that single script in the home page. In your index.html file, go to the `<head>` part of the page and include the following main ```script``` tag:
 ```html
 <script type="text/javascript" src="api.min.js" async onload="Init('')"></script>
 ```
 ###### Where is the testing script stored? 
-For the needs of the tool, you keep the testing script of your usability sessions into a separate JSON file, the ```UseCaseData.json``` file. Create your testing script according to the template that is provided [here](https://github.wdf.sap.corp/gist/D059136/f968853415526a277c7eba083608c720).     
+For the needs of the tool, you keep the testing script of your usability sessions into a separate JSON file, the ```UseCaseData.json``` file. Create your testing script according to the template that is provided [here](https://github.com/SAP/ux-tracking-tool/blob/master/UseCaseData.json).     
 
 Set then the path to this file as a parameter in the main function you call on the initial loading of the script: ```Init('childfolder/subchildfolder/')```      
 In case the JSON file is located on the parent project folder, then set an empty string as parameter : ```Init('')```     
