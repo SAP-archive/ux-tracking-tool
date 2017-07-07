@@ -103,4 +103,4 @@ The algorithm of the tool will strictly follow the order presented above. A step
 The reason for this approach is to keep the intregrity of the results of the usability tests with respect to the use cases that will be provided as a measuring basis.
 
 ## Demo
-Visit the following demo page that is also included in the repository and open the console of your browser to view the logs that the tool prints. Find the demo page [here](https://github.wdf.sap.corp/pages/ux-design-tnt/user-research-tracking-tool-for-behavioral-analysis/).
+Visit the following demo page that is also included in the repository and open the console of your browser to view the logs that the tool prints. Find the demo page [here](https://sap.github.io/ux-tracking-tool/demo).
