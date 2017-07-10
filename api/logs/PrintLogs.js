@@ -35,5 +35,5 @@ function PrintToConsole(TriggerElement, DetailMessage) {
 function BrowserConsole(message) {
     console.log(message);
     /* Function used in the demo page of the tool --------------------------------------------------------------------------- */
-    //DemoPageConsole(message);
+    DemoPageConsole(message);
 }
