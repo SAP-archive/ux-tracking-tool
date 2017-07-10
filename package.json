@@ -1,22 +1,27 @@
 {
   "name": "user-research-tracking-tool-for-behavioral-analysis",
-  "version": "0.0.6",
-  "description": "API written on Javascript, for tracking the logs during a usability test session. By completing each use case, the script generates a file that is a detailed list of all user's interactions. This list can then be consumed in order to visualise the data and create comparable graphics.",
-  "main": "api/init.js",
+  "version": "1.0.0",
+  "description": "Utility to track the logs during a usability test session, in order to quickly evaluate the interaction and design concepts before going to production. Written in JavaScript for HTML/CSS based UX prototypes.",
+  "main": "api.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.wdf.sap.corp:ux-design-tnt/user-research-tracking-tool-for-behavioral-analysis.git"
+    "url": "https://github.com/SAP/ux-tracking-tool.git"
   },
   "keywords": [
     "ux",
-    "user",
-    "research"
+    "user research",
+    "user experience",
+    "usability"
+  ],
+  "contributors": [
+    "Drachtidis, Konstantinos <konstantinos.drachtidis@sap.com>",
+    "Kunath, Nancy <nancy.kunath@sap.com>"
   ],
   "author": "",
-  "license": "",
+  "license": "Apache License, Version 2.0",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^1.1.0",
