@@ -18,13 +18,20 @@ module.exports = function (grunt) {
 		watch: {
 			scripts: {
 				files: ['api/**/*.js', 'api/*.js'],
-				tasks: ['uglify:build', 'jshint', 'copy']
+				tasks: ['uglify:build', 'jshint']
 			}
 		},
 		copy: {
-			dist: {
-				src: ['api.min.js'],
-    			dest: 'docs/api.min.js'
+			main: {
+				files: [
+					{
+						src: ['api.min.js'],
+    					dest: 'docs/explicitly/api.min.js'
+					}, {
+						src: ['api.min.js'],
+    					dest: 'docs/automatically/api.min.js'
+					}
+				]			
   			}
 		}
 	});
@@ -34,6 +41,6 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 
-	grunt.registerTask('default', ['watch', 'jshint', 'uglify']);
+	grunt.registerTask('default', ['watch', 'jshint', 'uglify', 'copy']);
 
 };
