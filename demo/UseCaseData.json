@@ -1,11 +1,9 @@
 {
     "UseCaseAutoFlow": false,
-    "UseCases":
-    [{
+    "UseCases": [{
         "UseCaseID": "0",
         "UseCaseTitle": "Use Case 1",
-        "UseCaseActions":
-        [{
+        "UseCaseActions": [{
             "ActionID": "0",
             "ActionTitle": "Action Title 1",
             "ActionSteps": [{
@@ -33,8 +31,7 @@
     }, {
         "UseCaseID": "1",
         "UseCaseTitle": "Use Case 2",
-        "UseCaseActions":
-        [{
+        "UseCaseActions": [{
             "ActionID": "0",
             "ActionTitle": "Action Title 1",
             "ActionSteps": [{
