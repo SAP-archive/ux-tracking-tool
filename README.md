@@ -67,7 +67,7 @@ UxSetInteraction( [Trigger element] )
 UxCompleteSession()
 ```
 
-```Target action```, ```Target step``` are the ID's from the UseCaseData.json file.
+```Target use case```, ```Target action``` and ```Target step``` are the ID's from the UseCaseData.json file.
 
 ## Usage
 #### API flow
