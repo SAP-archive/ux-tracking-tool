@@ -1,11 +1,16 @@
 {
+    "UsabilityTestID": "UR-A",
+    "UsabilityTestTitle": "Usability research for app A",
+    "UsabilityTestDescription": "Description of usability research for app A",
     "UseCaseAutoFlow": true,
     "UseCases": [{
         "UseCaseID": "0",
         "UseCaseTitle": "Use Case 1",
+        "UseCaseDescription": "Use case description 1",
         "UseCaseActions": [{
             "ActionID": "0",
             "ActionTitle": "Action Title 1",
+            "ActionDescription": "Action Description 1",
             "ActionSteps": [{
                 "ActionStepID": "0",
                 "ActionStepTitle": "Step 1",
@@ -18,6 +23,7 @@
         }, {
             "ActionID": "1",
             "ActionTitle": "Action Title 2",
+            "ActionDescription": "Action Description 2",
             "ActionSteps": [{
                 "ActionStepID": "0",
                 "ActionStepTitle": "Step 1",
@@ -30,10 +36,12 @@
         }]
     }, {
         "UseCaseID": "1",
-        "UseCaseTitle": "Use Case 1",
+        "UseCaseTitle": "Use Case 2",
+        "UseCaseDescription": "Use case description 2",
         "UseCaseActions": [{
             "ActionID": "0",
             "ActionTitle": "Action Title 1",
+            "ActionDescription": "Action Description 1",
             "ActionSteps": [{
                 "ActionStepID": "0",
                 "ActionStepTitle": "Step 1",
@@ -46,6 +54,7 @@
         }, {
             "ActionID": "1",
             "ActionTitle": "Action Title 2",
+            "ActionDescription": "Action Description 2",
             "ActionSteps": [{
                 "ActionStepID": "0",
                 "ActionStepTitle": "Step 1",
