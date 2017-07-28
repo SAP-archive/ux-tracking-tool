@@ -3,7 +3,7 @@
         "UsabilityTestID": "UR-A",
         "UsabilityTestTitle": "Usability research for app A",
         "UsabilityTestDescription": "Description of usability research for app A",
-        "UsabilityTestPrototype": "https://ux-teckel.github.io/openui5-tool-landscape-prototype/",
+        "UsabilityTestPrototype": "https://sap.github.io/ux-tracking-tool/explicitly/index.html",
         "UsabilityTestEvent": "Event name",
         "UsabilityTestEventDate": "Month Day, Year"
     }],
