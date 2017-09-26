@@ -1,0 +1,49 @@
+.btn-teckel {
+    background-color: #f5a23b;
+    border-color: #f18b0c;
+}
+
+.btn-teckel:focus,
+.btn-teckel.focus {    
+    background-color: #f49623;
+    border-color: #d87d0b;
+}
+
+.btn-teckel:hover {
+    background-color: #f49623;
+    border-color: #d87d0b;
+}
+
+.btn-teckel:active,
+.btn-teckel.active,
+.open>.dropdown-toggle.btn-teckel {
+    background-color: #f49623;
+    border-color: #d87d0b;
+}
+
+.btn-teckel:active:hover,
+.btn-teckel.active:hover,
+.open>.dropdown-toggle.btn-teckel:hover,
+.btn-teckel:active:focus,
+.btn-teckel.active:focus,
+.open>.dropdown-toggle.btn-teckel:focus,
+.btn-teckel:active.focus,
+.btn-teckel.active.focus,
+.open>.dropdown-toggle.btn-teckel.focus {
+    background-color: #86322F;
+    border-color: #732B28;
+}
+
+a.navbar-brand img {
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+a.navbar-brand:link, a.navbar-brand:visited, a.navbar-brand:hover, a.navbar-brand:active {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 0.05rem;
+    vertical-align: bottom;
+}

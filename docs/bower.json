@@ -1,0 +1,24 @@
+{
+  "name": "teckel-tutorial",
+  "authors": [
+    "UX Design TnT"
+  ],
+  "description": "Tutorial for using the user research tracking tool for behaviorial analysis",
+  "main": "index.html",
+  "keywords": [
+    "ux",
+    "design"
+  ],
+  "license": "",
+  "homepage": "https://designtnt.mo.sap.corp/teckel/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
