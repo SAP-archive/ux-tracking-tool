@@ -20,7 +20,7 @@
     "Drachtidis, Konstantinos <konstantinos.drachtidis@sap.com>",
     "Kunath, Nancy <nancy.kunath@sap.com>"
   ],
-  "author": "",
+  "author": "SAP SE",
   "license": "Apache License, Version 2.0",
   "devDependencies": {
     "grunt": "^1.0.1",
