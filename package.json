@@ -23,11 +23,11 @@
   "author": "SAP SE",
   "license": "Apache License, Version 2.0",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-nodeunit": "~1.0.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-contrib-uglify": "^3.3.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.1.0"
   }
 }
