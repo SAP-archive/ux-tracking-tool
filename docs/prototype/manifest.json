@@ -27,7 +27,7 @@
     "sap.ui5": {
         "_version": "1.1.0",
         "rootView": {
-            "viewName": "UI5FioriForTools.view.init",
+            "viewName": "UI5FioriForTools.view.rootApp",
             "type": "XML",
             "id": "app"
         },
@@ -43,70 +43,138 @@
         "routing": {
             "config": {
                 "routerClass": "sap.m.routing.Router",
-                "controlId": "MainContainer",
+                "controlId": "mainContents",
                 "viewType": "XML",
                 "controlAggregation": "pages",
                 "viewPath": "UI5FioriForTools.view",
                 "async": true
             },
-            "routes": [
-                {
+            "routes": [{
                     "pattern": "",
+                    "name": "empty",
+                    "target": "home"
+                },
+                {
+                    "pattern": "home",
                     "name": "home",
                     "target": "home"
                 },
                 {
-                    "pattern": "example1",
-                    "name": "example1",
-                    "target": "example1"
+                    "pattern": "catalog",
+                    "name": "catalog",
+                    "target": "catalog"
                 },
                 {
-                    "pattern": "example2",
-                    "name": "example2",
-                    "target": "example2"
+                    "pattern": "ApiManagement",
+                    "name": "ApiManagement",
+                    "target": "ApiManagement"
                 },
                 {
-                    "pattern": "example3",
-                    "name": "example3",
-                    "target": "example3"
+                    "pattern": "CloudforCustomer",
+                    "name": "CloudforCustomer",
+                    "target": "CloudforCustomer"
                 },
                 {
-                    "pattern": "example4",
-                    "name": "example4",
-                    "target": "example4"
+                    "pattern": "CloudforFinance",
+                    "name": "CloudforFinance",
+                    "target": "CloudforFinance"
                 },
                 {
-                    "pattern": "example5",
-                    "name": "example5",
-                    "target": "example5"
+                    "pattern": "CloudPlatform",
+                    "name": "CloudPlatform",
+                    "target": "CloudPlatform"
                 },
                 {
-                    "pattern": "example6",
-                    "name": "example6",
-                    "target": "example6"
+                    "pattern": "GoalsManagement",
+                    "name": "GoalsManagement",
+                    "target": "GoalsManagement"
+                },
+                {
+                    "pattern": "MarketingCloud",
+                    "name": "MarketingCloud",
+                    "target": "MarketingCloud"
+                },
+                {
+                    "pattern": "ODataAPI",
+                    "name": "ODataAPI",
+                    "target": "ODataAPI"
+                },
+                {
+                    "pattern": "ProductContent",
+                    "name": "ProductContent",
+                    "target": "ProductContent"
+                },
+                {
+                    "pattern": "TalentManagement",
+                    "name": "TalentManagement",
+                    "target": "TalentManagement"
+                },
+                {
+                    "pattern": "TimeRecordingAPI",
+                    "name": "TimeRecordingAPI",
+                    "target": "TimeRecordingAPI"
+                },
+                {
+                    "pattern": "TranslationHub",
+                    "name": "TranslationHub",
+                    "target": "TranslationHub"
+                },
+                {
+                    "pattern": "VehiclesNetwork",
+                    "name": "VehiclesNetwork",
+                    "target": "VehiclesNetwork"
+                },
+                {
+                    "pattern": "ImportantLinks",
+                    "name": "ImportantLinks",
+                    "target": "ImportantLinks"
                 }
             ],
             "targets": {
                 "home": {
-                    "viewName": "MainNavigation.Home"
+                    "viewName": "Home"
                 },
-                "example1": {
-                    "viewName": "MainNavigation.Example1"
+                "catalog": {
+                    "viewName": "Catalog"
                 },
-                "example2": {
-                    "viewName": "MainNavigation.Example2"
+                "ApiManagement": {
+                    "viewName": "catalog.ApiManagement"
                 },
-                "example3": {
-                    "viewName": "MainNavigation.Example3"
+                "CloudforCustomer": {
+                    "viewName": "catalog.CloudforCustomer"
                 },
-                "example4": {
-                    "viewName": "MainNavigation.Example4"
+                "CloudforFinance": {
+                    "viewName": "catalog.CloudforFinance"
                 },
-                "example5": {
-                    "viewName": "FixedNavigation.Example5"
+                "CloudPlatform": {
+                    "viewName": "catalog.CloudPlatform"
                 },
-                "example6": {
-                    "viewName": "FixedNavigation.Example6"
+                "GoalsManagement": {
+                    "viewName": "catalog.GoalsManagement"
+                },
+                "MarketingCloud": {
+                    "viewName": "catalog.MarketingCloud"
+                },
+                "ODataAPI": {
+                    "viewName": "catalog.ODataAPI"
+                },
+                "ProductContent": {
+                    "viewName": "catalog.ProductContent"
+                },
+                "TalentManagement": {
+                    "viewName": "catalog.TalentManagement"
+                },
+                "TimeRecordingAPI": {
+                    "viewName": "catalog.TimeRecordingAPI"
+                },
+                "TranslationHub": {
+                    "viewName": "catalog.TranslationHub"
+                },
+                "VehiclesNetwork": {
+                    "viewName": "catalog.VehiclesNetwork"
+                },
+                "ImportantLinks": {
+                    "viewName": "ImportantLinks"
                 }
             }
         }

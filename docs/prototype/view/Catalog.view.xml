@@ -1,0 +1,103 @@
+<mvc:View controllerName="UI5FioriForTools.controller.Catalog" 
+  xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns="sap.m">
+  <SplitApp id="SplitAppDemo" initialDetail="detailPage1" initialMaster="master" orientationChange="onOrientationChange">
+    <detailPages>
+      <!-- DETAIL PAGE 1 -->
+      <Page class="sapUiStdPage" id="detailPage1" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="API Management">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.ApiManagement"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 2 -->
+      <Page class="sapUiStdPage" id="detailPage2" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Cloud for Customer">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.CloudforCustomer"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 3 -->
+      <Page class="sapUiStdPage" id="detailPage3" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Cloud for Finance">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.CloudforFinance"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 4 -->
+      <Page class="sapUiStdPage" id="detailPage4" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Cloud Platform">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.CloudPlatform"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 5 -->
+      <Page class="sapUiStdPage" id="detailPage5" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Goals Management">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.GoalsManagement"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 6 -->
+      <Page class="sapUiStdPage" id="detailPage6" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="MarketingCloud">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.MarketingCloud"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 7 -->
+      <Page class="sapUiStdPage" id="detailPage7" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="OData API">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.ODataAPI"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 8 -->
+      <Page class="sapUiStdPage" id="detailPage8" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Product Content">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.ProductContent"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 9 -->
+      <Page class="sapUiStdPage" id="detailPage9" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Talent Management">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.TalentManagement"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 2 -->
+      <Page class="sapUiStdPage" id="detailPage10" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Time Recording API">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.TimeRecordingAPI"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 2 -->
+      <Page class="sapUiStdPage" id="detailPage11" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Translation Hub">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.TranslationHub"/>
+        </content>
+      </Page>
+      <!-- DETAIL PAGE 2 -->
+      <Page class="sapUiStdPage" id="detailPage12" navButtonPress="onPressDetailBack" navButtonText="Back" showHeader="true" showNavButton="false" title="Vehicles Network">
+        <content>
+          <mvc:XMLView viewName="UI5FioriForTools.view.catalog.VehiclesNetwork"/>
+        </content>
+      </Page>
+    </detailPages>
+    <masterPages>
+      <Page class="sapUiStdPage" icon="sap-icon://action" id="master2" navButtonPress="onPressMasterBack" showHeader="false" showNavButton="true" title="Master 2">
+        <content>
+          <List itemPress="onListItemPress">
+            <items>
+              <StandardListItem custom:to="detailPage1" title="API Management" type="Active"/>
+              <StandardListItem custom:to="detailPage2" title="Cloud for Customer" type="Active"/>
+              <StandardListItem custom:to="detailPage3" title="Cloud for Finance" type="Active"/>
+              <StandardListItem custom:to="detailPage4" title="Cloud Platform" type="Active"/>
+              <StandardListItem custom:to="detailPage5" title="Goals Management" type="Active"/>
+              <StandardListItem custom:to="detailPage6" title="Marketing Cloud" type="Active"/>
+              <StandardListItem custom:to="detailPage7" title="OData API" type="Active"/>
+              <StandardListItem custom:to="detailPage8" title="Product Content" type="Active"/>
+              <StandardListItem custom:to="detailPage9" title="Talent Management" type="Active"/>
+              <StandardListItem custom:to="detailPage10" title="Time Recording API" type="Active"/>
+              <StandardListItem custom:to="detailPage11" title="Translation Hub" type="Active"/>
+              <StandardListItem custom:to="detailPage12" title="Vehicles Network" type="Active"/>
+            </items>
+          </List>
+        </content>
+      </Page>
+    </masterPages>
+  </SplitApp>
+</mvc:View>

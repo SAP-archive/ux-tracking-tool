@@ -1,0 +1,50 @@
+{
+    "UsabilityTestID": "UT-APIsub1",
+    "UsabilityTestTitle": "API Subscription",
+    "UsabilityTestDescription": "Testing the usability of the API hub on subsribing to APIs.",
+    "UseCaseAutoFlow": true,
+    "UseCases": [{
+        "UseCaseID": "0",
+        "UseCaseTitle": "Subscribe to an API",
+        "UseCaseDescription": "The participants were asked to locate the Goals Management API starting from the first page of the application. After completing this step, the participants should include the API Key. In general, this task was designed to explore the application on an easy level, to get familiar with it and to get a first impression about the information architecture.",
+        "UseCaseActions": [{
+            "ActionID": "0",
+            "ActionTitle": "Subscribe to the Goals Management API after including its API key (over the dashboard).",
+            "ActionDescription": "Ideally, we expect the user to navigate to the Goals Management API, then click the include the API key and subscribe to it.",
+            "ActionSteps": [{
+                "ActionStepID": "0",
+                "ActionStepTitle": "Step 1",
+                "ActionStepDescription": "Navigate to the API."
+            }, {
+                "ActionStepID": "1",
+                "ActionStepTitle": "Step 2",
+                "ActionStepDescription": "Include the API key."
+            }, {
+                "ActionStepID": "2",
+                "ActionStepTitle": "Step 3",
+                "ActionStepDescription": "Click on the Subscribe button."
+            }]
+        }, {
+            "ActionID": "1",
+            "ActionTitle": "Subscribe to the Talent Management API after including its API key (over the catalog).",
+            "ActionDescription": "The ideal path would be to open the API catalog, then use the master list to navigate to the concrete API, include the API key and then click on the subscribe button.",
+            "ActionSteps": [{
+                "ActionStepID": "0",
+                "ActionStepTitle": "Step 1",
+                "ActionStepDescription": "Open the API catalog."
+            }, {
+                "ActionStepID": "1",
+                "ActionStepTitle": "Step 2",
+                "ActionStepDescription": "Navigate to the API over the master list."
+            }, {
+                "ActionStepID": "2",
+                "ActionStepTitle": "Step 3",
+                "ActionStepDescription": "Include the API key."
+            }, {
+                "ActionStepID": "3",
+                "ActionStepTitle": "Step 4",
+                "ActionStepDescription": "Click on the Subscribe button."
+            }]
+        }]
+    }]
+}

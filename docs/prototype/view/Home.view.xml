@@ -1,0 +1,116 @@
+<mvc:View height="100%" 
+  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" 
+  xmlns:core="sap.ui.core" 
+  xmlns:form="sap.ui.layout.form" 
+  xmlns:html="http://www.w3.org/1999/xhtml" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:tnt="sap.tnt" 
+  xmlns:u="sap.ui.unified" 
+  xmlns="sap.m" controllerName="UI5FioriForTools.controller.Home">
+  <!-- BLOCK LAYOUT BEGINS HERE -->
+  <Page showHeader="false">
+    <l:BlockLayout background="{/selectedBackground}" id="BlockLayout">
+      <!-- THIS IS THE HEADER ROW WITH THE IMAGE -->
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell class="noPadding" id="cell0" title="" width="1">
+          <Image src="images/header.jpg" width="100%"></Image>
+          <Text class="headerText" text="Welcome to the demo API hub" width="100%"/>
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+      <!-- THIS IS THE TITLE -->
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell title="Featured"></l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+      <!-- THIS IS THE BLOCK LAYOUT ROW -->
+      <l:BlockLayoutRow>
+        <!-- FIRST BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor1" id="cell4" title="Cloud Platform" titleAlignment="Center">
+          <RatingIndicator class="cursorcontrol sapUiSmallMarginBottom" maxValue="5" value="4.3" enabled="true"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- SECOND BLOCK -->
+        <!-- For several clickable Areas, use the respective UI5 controls -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor2" id="cell1" title="API Management" titleAlignment="Center">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="3.7"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- THIRD BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor1" id="cell5" title="Goals Management" titleAlignment="Center">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="3.2"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- FOURTH BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor2" id="cell9" title="Talent Management" titleAlignment="Center">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="4"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+      <!-- THIS IS THE TITLE -->
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell title="New"></l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+      <!-- THIS IS THE BLOCK LAYOUT ROW -->
+      <l:BlockLayoutRow>
+        <!-- FIRST BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" id="cell10" title="Time Recording API" titleAlignment="Center" width="1">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="4.5"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- SECOND BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor6" id="cell2" title="Cloud for Customer" titleAlignment="Center" width="1">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="4.7"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- THIRD BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor7" id="cell3" title="Cloud for Finance" titleAlignment="Center" width="1">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="3.9"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <l:BlockLayoutCell class="cursorcontrol blockcolor5" id="cell6" title="Marketing Cloud" titleAlignment="Center" width="1">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="4.2"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+      <!-- THIS IS THE TITLE -->
+      <l:BlockLayoutRow>
+        <l:BlockLayoutCell title=" Updated"></l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+      <!-- THIS IS THE BLOCK LAYOUT ROW -->
+      <l:BlockLayoutRow>
+        <!-- FIRST BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor7" id="cell7" title="OData API" titleAlignment="Center">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="3.5"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- SECOND BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor6" id="cell12" title="Vehicles Network" titleAlignment="Center">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="3.7"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- THIRD BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor7" id="cell11" title="Translation Hub" titleAlignment="Center">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="4.2"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+        <!-- FOURTH BLOCK -->
+        <l:BlockLayoutCell class="cursorcontrol blockcolor6" id="cell8" title="Product Content" titleAlignment="Center">
+          <RatingIndicator class="sapUiSmallMarginBottom" maxValue="5" value="4.5"/>
+          <Text text="Version 1.37" textAlign="Center" width="100%"/>
+          <Text text="Published 3 months ago" textAlign="Center"/>
+        </l:BlockLayoutCell>
+      </l:BlockLayoutRow>
+    </l:BlockLayout>
+  </Page>
+</mvc:View>

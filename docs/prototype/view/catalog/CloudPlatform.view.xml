@@ -1,0 +1,82 @@
+<core:View height="100%" 
+  xmlns:core="sap.ui.core" 
+  xmlns:f="sap.ui.layout.form" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:m="sap.m" 
+  xmlns="sap.uxap">
+  <ObjectPageLayout enableLazyLoading="true" id="ObjectPageLayout">
+    <headerTitle>
+      <ObjectPageHeader objectTitle="Cloud Platform">
+        <actions>
+          <ObjectPageHeaderActionButton text="Subscribe" type="Transparent" hideText="false" importance="Low" press="onPress"/>
+          <ObjectPageHeaderActionButton text="Export" type="Transparent" hideText="false"/>
+        </actions>
+      </ObjectPageHeader>
+    </headerTitle>
+    <headerContent>
+      <l:VerticalLayout>
+        <m:Text text="An Application Programming Interface (API) is a set of subroutine definitions, protocols, and tools for building application software. In general terms, it is a set of clearly defined methods of communication between various software components."/>
+        <m:ObjectStatus text="Version 1.37"/>
+      </l:VerticalLayout>
+      <l:VerticalLayout>
+        <l:layoutData>
+          <ObjectPageHeaderLayoutData visibleS="false"/>
+        </l:layoutData>
+      </l:VerticalLayout>
+      <l:VerticalLayout>
+        <l:layoutData>
+          <ObjectPageHeaderLayoutData visibleM="false" visibleS="false"/>
+        </l:layoutData>
+      </l:VerticalLayout>
+    </headerContent>
+    <sections>
+      <ObjectPageSection title="my section">
+        <subSections>
+          <ObjectPageSubSection id="Section1" mode="Expanded" title="Versioned API">
+            <blocks>
+              <ObjectPageLazyLoader id="Section1stashed" stashed="true">
+                <m:VBox class="sapUiSmallMargin">
+                  <f:SimpleForm columnsL="1" columnsM="1" editable="false" emptySpanL="4" emptySpanM="4" labelSpanL="3" labelSpanM="3" layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="1024">
+                    <f:content>
+                      <m:Label text="Version:"/>
+                      <m:Text text="14.02.0-ce"/>
+                      <m:Label text="API version:"/>
+                      <m:Text text="1.37"/>
+                      <m:Label text="Go version:"/>
+                      <m:Text text="go1.3.3"/>
+                      <m:Label text="Git commit:"/>
+                      <m:Text text="2365c82"/>
+                      <m:Label text="Built:"/>
+                      <m:Text text="Wed Apr 12 06:06:36 2017"/>
+                      <m:Label text="OS/Arch:"/>
+                      <m:Text text="darwin/amd64"/>
+                    </f:content>
+                  </f:SimpleForm>
+                </m:VBox>
+              </ObjectPageLazyLoader>
+            </blocks>
+          </ObjectPageSubSection>
+        </subSections>
+      </ObjectPageSection>
+      <ObjectPageSection title="my section">
+        <subSections>
+          <ObjectPageSubSection id="Section2" mode="Expanded" title="Subscriber Key">
+            <blocks>
+              <ObjectPageLazyLoader id="Section2stashed" stashed="true">
+                <m:VBox class="sapUiSmallMargin">
+                  <m:Text text="Selected API Key:"/>
+                  <m:RadioButtonGroup selectedIndex="1">
+                    <m:buttons>
+                      <m:RadioButton id="True" text="7c0844c5-a24f-4ee6-b8b1-6cae9112d333" select="onCheck"/>
+                      <m:RadioButton id="False" text="None"/>
+                    </m:buttons>
+                  </m:RadioButtonGroup>
+                </m:VBox>
+              </ObjectPageLazyLoader>
+            </blocks>
+          </ObjectPageSubSection>
+        </subSections>
+      </ObjectPageSection>
+    </sections>
+  </ObjectPageLayout>
+</core:View>

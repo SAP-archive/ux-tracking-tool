@@ -1,0 +1,411 @@
+/*********************************************************************/
+/*                        General Formatting                         */
+/*********************************************************************/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sapUiSmallMarginTop{
+  margin-top: 0px;
+  padding: 0px !important;
+}
+
+.headerText {
+  width: 100% !important;
+  text-align: left !important;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  font-size: 3.7vw !important;
+  font-family: Helvetica !important;
+  font-weight: 100;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 5px #424242;
+}
+
+/******************************************************************/
+/*                      TOOL HEADER ALIGNMENT                     */
+/******************************************************************/
+
+#__component0---app--logo{
+  margin-left: 1rem;
+}
+
+.toolHeaderIcon {
+  margin: 0px !important;
+}
+
+/******************************************************************/
+/*    SPLIT APP: MARGINS; BRANDING BAR & MYSTERIOUS BLUE BORDER   */
+/******************************************************************/
+
+/*SplitApp: set the body margins to zero*/
+body {
+  margin: 0!important;
+}
+
+/* SplitApp: Remove the blue branding bar */
+.sapMPageHeader::before {
+  border-top: none;
+}
+
+/* SplitApp: ...and also the mysterious colored right border */
+.sapMSplitContainerMaster:before {
+  border-right: none;
+}
+
+/* Remove the unneeded scrollbars */
+#__xmlview3--detailPage1-cont{
+  overflow-y: hidden!important;
+}
+
+/* Remove the unneeded scrollbars */
+#arbitraryUI5Control--SplitAppPage-cont {
+  overflow-y: hidden!important;
+}
+
+/******************************************************************/
+/*                         BLOCK LAYOUT                           */
+/******************************************************************/
+
+.sapUiBlockCellTitle {
+  margin: 1rem !important;
+}
+.sapUiBlockCellContent {
+  padding: 0rem!important;
+} 
+
+/* hide the app name at sizes below 768 */
+@media (max-width: 768px) {
+  #__toolbar1 {
+    visibility: hidden;
+  }
+}
+
+/* suppress the padding of the Block Cells below 900 */
+@media (max-width: 900px) {
+  #__xmlview0--cell0 .sapUiBlockCellContent {
+    padding: 0!important;
+  }
+}
+
+.blockcolor2 {
+  background-color: #008E88;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor2 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor2 .sapMText {
+  color: #ffffff;
+}
+.blockcolor2:hover {
+  background-color: #0a928d;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor2:active {
+  background-color: #149791;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+
+.blockcolor3 {
+  background-color: #009892;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor3 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor3 .sapMText {
+  color: #ffffff;
+}
+
+.blockcolor4 {
+  background-color: #008E88;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor4 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor4 .sapMText {
+  color: #ffffff;
+}
+
+.blockcolor5 {
+  background-color: #305783;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor5 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor5 .sapMText {
+  color: #ffffff;
+}
+.blockcolor5:hover {
+  background-color: #385e88;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor5:active {
+  background-color: #40648d;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+
+.blockcolor6 {
+  background-color: #006D9B;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor6 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor6 .sapMText {
+  color: #ffffff;
+}
+.blockcolor6:hover {
+  background-color: #0a739f;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor6:active {
+  background-color: #1478a3;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+
+.blockcolor7 {
+  background-color: #0092B6;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor7 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor7 .sapMText {
+  color: #ffffff;
+}
+.blockcolor7:hover {
+  background-color: #0a96b9;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor7:active {
+  background-color: #149bbc;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+
+.blockcolor8 {
+  background-color: #0092B6;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor8 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor8 .sapMText {
+  color: #ffffff;
+}
+
+.blockcolor9 {
+  background-color: #006D9B;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor9 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor9 .sapMText {
+  color: #ffffff;
+}
+
+.blockcolor10 {
+  background-color: #0092B6;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor10 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor10 .sapMText {
+  color: #ffffff;
+}
+
+.blockcolor11 {
+  background-color: #006D9B;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor11 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor11 .sapMText {
+  color: #ffffff;
+}
+
+/*********************************************************/
+/* BLOCK LAYOUT: THIS IS AN EXAMPLE FOR CLICKABLE BLOCKS */
+/*********************************************************/
+
+/* Block 1 */
+.blockcolor1 {
+  background-color: #009892;
+  color: #ffffff!important;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor1 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor1 .sapMText {
+  color: #ffffff;
+}
+/* Block 1 has active and hover states */
+.blockcolor1:hover {
+  background-color: #00a29c;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor1:active {
+  background-color: #00aca6;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+/* Control the cursor */
+.cursorcontrol{
+  cursor: pointer;
+}
+
+/************************************************************/
+/* THIS IS AN EXAMPLE OF HOW TO GET THE SMALL CELLS TO 100% */
+/************************************************************/
+
+@media (max-width: 855px) {
+  .sapUiBlockLayoutSmall .sapUiBlockSmallCell {
+      width: 100%!important;
+  }
+}
+@media (max-width: 1024px) {
+  .sapUiBlockLayoutSizeM .sapUiBlockMediumCell {
+      width: 100%!important;
+  }
+}
+
+/*****************************************************/
+/* THIS IS AN EXAMPLE OF HOW TO HIDE CELLS ON MOBILE */
+/*****************************************************/
+
+@media (max-width: 855px) {
+ .hideOnMobile {
+      display: none;
+ }
+}
+.blockcolorWhite {
+  background-color: #ffffff;
+  color: #000000;
+  height: 300px;
+}
+.blockcolorWhite .sapUiBlockCellTitle {
+  color: #000000;
+}
+
+
+
+#__popover7 {
+    position: absolute;
+    visibility: hidden;
+    z-index: 20;
+    top: 0px;
+    overflow: visible;
+    left: 0px;
+}
+
+.BlockLayoutPaddingMedium {
+  padding: 32px;
+}
+
+/*FIXES THE PAGE HEIGHT ISSUE*/
+.sapMNav {
+  overflow-x: hidden!important;
+overflow-y: auto!important;
+}
+
+/*BLOCK LAYOUT CELL TITLES*/
+.sapUiBlockCellTitle {
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+}
+
+/*MESSAGE POPOVER BACKGROUND*/
+#__popover0-messagePopover-popover {
+    background-color: #ffffff;
+}
+
+
+/*BLOCKCOLOR ACCENT4*/
+
+/* Block 1 */
+.blockcolor90 {
+  background-color: #ab218e;
+  color: #ffffff!important;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor90 .sapUiBlockCellTitle {
+  color: #ffffff;
+}
+.blockcolor90 .sapMText {
+  color: #ffffff;
+}
+/* Block 1 has active and hover states */
+.blockcolor90:hover {
+  background-color: #00a29c;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}
+.blockcolor90:active {
+  background-color: #00aca6;
+  cursor: pointer;
+  color: #ffffff;
+  height: 300px;
+  padding: 16px;
+}

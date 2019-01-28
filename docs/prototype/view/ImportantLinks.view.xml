@@ -1,0 +1,18 @@
+<mvc:View height="100%" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns="sap.m">
+  <Page class="sapUiContentPadding" title="Important Links">
+    <content>
+      <VBox>
+        <Text text="Please visit the links below for more information on the respective topics:"/>
+        <Text text=""/>
+      </VBox>
+      <VBox>
+        <Link href="http://www.sap.com" target="_blank" text="SAP Homepage"/>
+        <Link href="https://cloudplatform.sap.com/index.html" target="_blank" text="SAP Cloud Platform"/>
+        <Link href="https://account.hanatrial.ondemand.com/#/home/welcome" target="_blank" text="SAP Cloud Platform Cockpit"/>
+        <Link href="http://openui5.org/" target="_blank" text="OpenUI5"/>
+      </VBox>
+    </content>
+  </Page>
+</mvc:View>

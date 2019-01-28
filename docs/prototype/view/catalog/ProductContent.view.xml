@@ -1,0 +1,84 @@
+<core:View height="100%" 
+  xmlns:core="sap.ui.core" 
+  xmlns:f="sap.ui.layout.form" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:m="sap.m" 
+  xmlns="sap.uxap">
+  <ObjectPageLayout enableLazyLoading="true" id="ObjectPageLayout">
+    <headerTitle>
+      <ObjectPageHeader objectTitle="Product Content">
+        <actions>
+          <ObjectPageHeaderActionButton text="Subscribe" type="Transparent" hideText="false" importance="Low" press="onPress"/>
+          <ObjectPageHeaderActionButton text="Export" type="Transparent" hideText="false"/>
+        </actions>
+      </ObjectPageHeader>
+    </headerTitle>
+    <headerContent>
+      <l:VerticalLayout>
+        <m:Text text="SAP API Management helps customers share digital assets and processes beyond traditional applications and websites and enables developer communities to consume digital assets with ease in new channels, devices, and user interfaces."/>
+        <m:ObjectStatus text="Version 1.1"/>
+      </l:VerticalLayout>
+      <l:VerticalLayout>
+        <l:layoutData>
+          <ObjectPageHeaderLayoutData visibleS="false"/>
+        </l:layoutData>
+      </l:VerticalLayout>
+      <l:VerticalLayout>
+        <l:layoutData>
+          <ObjectPageHeaderLayoutData visibleM="false" visibleS="false"/>
+        </l:layoutData>
+      </l:VerticalLayout>
+    </headerContent>
+    <sections>
+      <ObjectPageSection title="my section">
+        <subSections>
+          <ObjectPageSubSection id="Section1" mode="Expanded" title="Supplier Details">
+            <blocks>
+              <ObjectPageLazyLoader id="Section1stashed" stashed="true">
+                <m:VBox class="sapUiSmallMargin">
+                  <f:SimpleForm columnsL="1" columnsM="1" editable="false" emptySpanL="4" emptySpanM="4" labelSpanL="3" labelSpanM="3" layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="1024">
+                    <f:content>
+                      <m:Label text="Supplier"/>
+                      <m:Text text="SAP SE"/>
+                      <m:Label text="Street/No."/>
+                      <m:Text text="Dietmar-Hopp Allee 16"/>
+                      <m:Label text="ZIP Code/City"/>
+                      <m:Text text="69190 Walldorf"/>
+                      <m:Label text="Country"/>
+                      <m:Text text="Germany"/>
+                      <m:Label text="Website"/>
+                      <m:Link text="http://www.sap.de"/>
+                    </f:content>
+                  </f:SimpleForm>
+                </m:VBox>
+              </ObjectPageLazyLoader>
+            </blocks>
+          </ObjectPageSubSection>
+        </subSections>
+      </ObjectPageSection>
+      <ObjectPageSection title="my section">
+        <subSections>
+          <ObjectPageSubSection id="Section2" mode="Expanded" title="Subscriber Details">
+            <blocks>
+              <ObjectPageLazyLoader id="Section2stashed" stashed="true">
+                <m:VBox class="sapUiSmallMargin">
+                  <f:SimpleForm editable="false" labelSpanL="4" labelSpanM="4" layout="ResponsiveGridLayout">
+                    <f:content>
+                      <m:Label text="API Key:"/>
+                      <m:CheckBox text="e6589151-d08a-4455-9dc5-457c26ccfe60" selected="false" select="onCheck"/>
+                      <m:CheckBox text="None" selected="true" select="onCheck">
+                        <m:layoutData>
+                          <l:GridData linebreak="true" indentL="4" indentM="4" />
+                        </m:layoutData>
+                      </m:CheckBox>
+                    </f:content>
+                  </f:SimpleForm>
+                </m:VBox>
+              </ObjectPageLazyLoader>
+            </blocks>
+          </ObjectPageSubSection>
+        </subSections>
+      </ObjectPageSection>
+    </sections>
+  </ObjectPageLayout>
+</core:View>
