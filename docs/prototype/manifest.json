@@ -1,0 +1,114 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "_version": "1.1.0",
+        "id": "sap.ui.demo.toolpageapp",
+        "type": "application",
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_hcb",
+            "sap_bluecrystal",
+            "sap_belize"
+        ]
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "rootView": {
+            "viewName": "UI5FioriForTools.view.init",
+            "type": "XML",
+            "id": "app"
+        },
+        "dependencies": {
+            "minUI5Version": "1.30",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.tnt": {},
+                "sap.ui.layout": {}
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "controlId": "MainContainer",
+                "viewType": "XML",
+                "controlAggregation": "pages",
+                "viewPath": "UI5FioriForTools.view",
+                "async": true
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "home",
+                    "target": "home"
+                },
+                {
+                    "pattern": "example1",
+                    "name": "example1",
+                    "target": "example1"
+                },
+                {
+                    "pattern": "example2",
+                    "name": "example2",
+                    "target": "example2"
+                },
+                {
+                    "pattern": "example3",
+                    "name": "example3",
+                    "target": "example3"
+                },
+                {
+                    "pattern": "example4",
+                    "name": "example4",
+                    "target": "example4"
+                },
+                {
+                    "pattern": "example5",
+                    "name": "example5",
+                    "target": "example5"
+                },
+                {
+                    "pattern": "example6",
+                    "name": "example6",
+                    "target": "example6"
+                }
+            ],
+            "targets": {
+                "home": {
+                    "viewName": "MainNavigation.Home"
+                },
+                "example1": {
+                    "viewName": "MainNavigation.Example1"
+                },
+                "example2": {
+                    "viewName": "MainNavigation.Example2"
+                },
+                "example3": {
+                    "viewName": "MainNavigation.Example3"
+                },
+                "example4": {
+                    "viewName": "MainNavigation.Example4"
+                },
+                "example5": {
+                    "viewName": "FixedNavigation.Example5"
+                },
+                "example6": {
+                    "viewName": "FixedNavigation.Example6"
+                }
+            }
+        }
+    }
+}
