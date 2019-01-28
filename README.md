@@ -24,9 +24,6 @@ Boost the prototype evaluation by its instant output.
 * Compare the tracks with the expected values to calculate divergence.
 * Compare the tracks of same user to interpret behavior.
 
-## Demo
-Visit the following demo page that is also included in the repository and open the console of your browser to view the logs that the tool prints. Find the demo page [here](https://sap.github.io/ux-tracking-tool/demo/explicitly/index.html).
-
 ## Wiki
 Visit the following wiki page that is also included in the repository and provides you the documentation. Find the wiki page [here](https://github.com/SAP/ux-tracking-tool/wiki).
 
