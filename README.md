@@ -27,6 +27,9 @@ Boost the prototype evaluation by its instant output.
 ## Demo
 Visit the following demo page that is also included in the repository and open the console of your browser to view the logs that the tool prints. Find the demo page [here](https://sap.github.io/ux-tracking-tool/demo/explicitly/index.html).
 
+## Wiki
+Visit the following wiki page that is also included in the repository and provides you the documentation. Find the wiki page [here](https://github.com/SAP/ux-tracking-tool/wiki).
+
 ## Copyright and license
 
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved. 
