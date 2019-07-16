@@ -1,6 +1,7 @@
 {
   "name": "user-research-tracking-tool-for-behavioral-analysis",
   "version": "1.0.0",
+  "homepage": "https://sap.github.io/ux-tracking-tool/",
   "description": "Utility to track the logs during a usability test session, in order to quickly evaluate the interaction and design concepts before going to production. Written in JavaScript for HTML/CSS based UX prototypes.",
   "main": "api.min.js",
   "scripts": {
@@ -21,7 +22,7 @@
     "Kunath, Nancy <nancy.kunath@sap.com>"
   ],
   "author": "SAP SE",
-  "license": "Apache License, Version 2.0",
+  "license": "Apache-2.0",
   "devDependencies": {
     "grunt": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
