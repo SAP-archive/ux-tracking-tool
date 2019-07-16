@@ -1,1 +1,0 @@
-An OpenUI5 based [prototype](https://sap.github.io/ux-tracking-tool/prototype/index.html) that demonstrates the [user research tracking tool for behavioral analysis](https://github.com/SAP/ux-tracking-tool).
